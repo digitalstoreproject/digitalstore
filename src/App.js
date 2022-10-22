@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './components/Header';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Welcome ReactJS</h1>
+    <div>
+      <Header />
     </div>
-  );
+  )
 }
 
 export default App;
