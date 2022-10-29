@@ -9,8 +9,8 @@ function Footer() {
         <FooterContainer>
             <div className='footerContent'>
                 <div className='leftSideFooterContent'>
-                    <img src={LogoMainWhite} alt='Main Logo White'></img>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos laudantium eveniet maiores assumenda omnis voluptas maxime! Reiciendis aperiam nostrum, dolor ad, error magni, alias commodi laboriosam inventore veniam tempore?</p>
+                    <img className='logoImg' src={LogoMainWhite} alt='Main Logo White'></img>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     <div className='iconsContent'>
                         <img className='facebookIcon' src={FacebookIcon} alt="Facebook icon" />
                         <img className='instagramIcon' src={InstagramIcon} alt="Instagram icon" />
@@ -22,7 +22,7 @@ function Footer() {
                         Informação
                     </h3>
                     <div>
-                        <p>Sobre Drip Store</p>
+                    <p>Sobre Drip Store</p>
                         <p>Segurança</p>
                         <p>Wishlist</p>
                         <p>Blog</p>
@@ -50,7 +50,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='copyrightContainer'>
                 <p>@ 2022 Digital College</p>
             </div>
         </FooterContainer>
